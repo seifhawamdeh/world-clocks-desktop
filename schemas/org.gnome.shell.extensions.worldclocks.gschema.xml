@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="worldclocks">
+  <schema id="org.gnome.shell.extensions.worldclocks" path="/org/gnome/shell/extensions/worldclocks/">
+    <key name="clocks" type="as">
+      <default>['Riyadh|Asia/Riyadh', '---', 'Dubai|Asia/Dubai', 'Bangalore|Asia/Kolkata', '---', 'New York|America/New_York', 'Los Angeles|America/Los_Angeles']</default>
+      <summary>List of clocks</summary>
+      <description>Each entry is "City Name|Timezone/ID", e.g. "Cairo|Africa/Cairo"</description>
+    </key>
+    <key name="margin-x" type="i">
+      <default>40</default>
+      <summary>Horizontal margin from work-area edge</summary>
+    </key>
+    <key name="margin-y" type="i">
+      <default>40</default>
+      <summary>Vertical margin from work-area edge</summary>
+    </key>
+    <key name="anchor" type="s">
+      <default>'top-right'</default>
+      <summary>Corner to anchor the widget to</summary>
+      <description>One of: top-left, top-right, bottom-left, bottom-right</description>
+    </key>
+    <key name="mode" type="s">
+      <default>'digital'</default>
+      <summary>Clock display mode</summary>
+      <description>One of: digital, analog</description>
+    </key>
+    <key name="layer" type="s">
+      <default>'desktop'</default>
+      <summary>Stacking layer for the widget</summary>
+      <description>desktop = behind windows (visible on the desktop); overlay = always on top</description>
+    </key>
+  </schema>
+</schemalist>

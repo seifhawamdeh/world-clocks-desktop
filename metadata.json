@@ -1,0 +1,10 @@
+{
+  "uuid": "worldclocks@seifhawamdeh.github.io",
+  "name": "World Clocks (Desktop)",
+  "description": "Shows multiple world clocks pinned to the desktop background layer. Digital or analog, grouped into sections, configurable cities and position.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/seifhawamdeh/world-clocks-desktop",
+  "version": 1,
+  "version-name": "1.0",
+  "settings-schema": "org.gnome.shell.extensions.worldclocks"
+}

@@ -1,0 +1,5 @@
+# Compiled GSettings schema (regenerated on install / pack)
+schemas/gschemas.compiled
+
+# Build artifacts
+*.shell-extension.zip

@@ -1,0 +1,61 @@
+.wc-card {
+    background-color: rgba(18, 20, 28, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 22px 26px;
+    min-width: 300px;
+    box-shadow: 0 8px 24px 4px rgba(0, 0, 0, 0.35);
+}
+
+.wc-title {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 13px;
+    font-weight: bold;
+    /* letter-spacing not supported by St; simulate emphasis with size/weight */
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.wc-rows {
+    spacing: 4px;
+}
+
+.wc-row {
+    spacing: 20px;
+    padding: 8px 0;
+}
+
+.wc-sep {
+    height: 1px;
+    min-height: 1px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.22);
+}
+
+.wc-city {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.wc-meta {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    margin-top: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.wc-time {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-feature-settings: "tnum";
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+
+.wc-dial {
+    width: 54px;
+    height: 54px;
+}
