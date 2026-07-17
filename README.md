@@ -4,7 +4,12 @@ A GNOME Shell extension that pins multiple world clocks to your desktop.
 Digital or analog, grouped into sections, with configurable cities and
 position.
 
-![screenshot](docs/screenshot.png)
+<p align="center">
+  <img src="docs/digital.png" alt="Digital mode" width="45%">
+  &nbsp;&nbsp;
+  <img src="docs/analog.png" alt="Analog mode" width="45%">
+</p>
+<p align="center"><em>Digital and analog modes.</em></p>
 
 ## Features
 
